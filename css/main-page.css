@@ -108,32 +108,57 @@ header {
 .search-box {
   color: #fff;
 }
-.books_box img {
-  border-radius: 12px;
-  width: 120px;
-  height: 140px;
-}
-.books_box {
-  padding: 10px;
-  border: 1px solid #c9ac8c;
-  flex-wrap: nowrap;
-  display: flex;
-  width: 170px;
-  flex-direction: column;
-  justify-content: center;
-  color: #fff;
-}
 .books_nav {
   display: flex;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.books_box {
+  padding: 15px;
+  border: 1px solid #c9ac8c;
+  width: 200px;
+  min-height: 320px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+.books_box p {
+  color: #ffff;
 }
 .books_box h4 {
-  margin-top: 10px;
+  color: #fff;
 }
-.books_nav {
-  width: 100%;
+
+.books_box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.books_box img {
+  border-radius: 8px;
+  width: 120px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.books_box h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.books_box p {
+  font-size: 14px;
+  text-align: center;
 }
 
 .books_box strong {
-  color: RED;
+  color: red;
 }
