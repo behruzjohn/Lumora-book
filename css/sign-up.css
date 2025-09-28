@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://img.freepik.com/premium-photo/empty-wooden-planks-table-with-library-background-desk-book_488220-11022.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+.container {
+  max-width: 1224px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+}
+.sign-up {
+  margin: 100px auto;
+  border: 2px solid black;
+  width: 50%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+.sign-up_nav {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.sign-up_nav input {
+  width: 100%;
+  background-color: #ffe0bf;
+  border: none;
+  font-weight: bold;
+  border-radius: 12px;
+  height: 30px;
+  padding: 20px;
+}
+
+.sign-up_nav h1 {
+  font-family: cursive;
+}
+
+#select {
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #ffe0bf;
+  height: 40px;
+  color: rgb(84, 81, 81);
+}
+.sign-up_nav button {
+  font-family: cursive;
+  height: 50px;
+  width: 100%;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #ffc786;
+  color: #fff;
+  border: none;
+}
+.input-box {
+  font-family: cursive;
+  position: relative;
+  width: 500px;
+}
+
+.input-box svg {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  fill: gray;
+}
+
+.input-box input {
+  height: 40px;
+  border-radius: 40px;
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+.radios {
+  margin-left: -50px;
+  width: 300px;
+  gap: 14px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.role-wrapper input {
+  width: 100px;
+  height: 20px;
+}
+
+.role-wrapper {
+  border: 2px solid rgba(102, 101, 101, 0.685);
+  padding: 20px;
+  width: 190px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  padding: 8px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #c9ac8c;
+
+  label {
+    color: black;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 992px) {
+  .sign-up {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .sign-up_nav {
+    width: 100%;
+  }
+
+  .input-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    background-size: cover;
+  }
+
+  .sign-up {
+    width: 90%;
+    margin: 50px auto;
+    padding: 15px;
+  }
+
+  .sign-up_nav {
+    width: 100%;
+    gap: 8px;
+  }
+
+  .input-box {
+    width: 100%;
+  }
+
+  .sign-up_nav input,
+  .sign-up_nav button,
+  #select {
+    font-size: 16px;
+    height: 40px;
+    padding: 10px;
+  }
+
+  .sign-up_nav button {
+    font-size: 18px;
+    height: 45px;
+  }
+
+  .radios {
+    margin-left: 0;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .role-wrapper {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+#link a {
+  text-decoration: none;
+  list-style: none;
+}

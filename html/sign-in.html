@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/sign-in.css" />
+    <link rel="stylesheet" href="/css/loader.css" />
+  </head>
+  <body>
+    <div id="load" class="load">
+      <span class="loader"></span>
+    </div>
+    <div class="container">
+      <div class="sign-up">
+        <div class="sign-up_nav">
+          <h1>Akkauntingizga Kiring!</h1>
+
+          <div class="input-box">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+              <path
+                d="M112 128C85.5 128 64 149.5 64 176C64 191.1 71.1 205.3 83.2 214.4L291.2 370.4C308.3 383.2 331.7 383.2 348.8 370.4L556.8 214.4C568.9 205.3 576 191.1 576 176C576 149.5 554.5 128 528 128L112 128zM64 260L64 448C64 483.3 92.7 512 128 512L512 512C547.3 512 576 483.3 576 448L576 260L377.6 408.8C343.5 434.4 296.5 434.4 262.4 408.8L64 260z"
+              />
+            </svg>
+
+            <input id="email" type="email" placeholder="Email" />
+          </div>
+          <div class="input-box">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+              <path
+                d="M400 416C497.2 416 576 337.2 576 240C576 142.8 497.2 64 400 64C302.8 64 224 142.8 224 240C224 258.7 226.9 276.8 232.3 293.7L71 455C66.5 459.5 64 465.6 64 472L64 552C64 565.3 74.7 576 88 576L168 576C181.3 576 192 565.3 192 552L192 512L232 512C245.3 512 256 501.3 256 488L256 448L296 448C302.4 448 308.5 445.5 313 441L346.3 407.7C363.2 413.1 381.3 416 400 416zM440 160C462.1 160 480 177.9 480 200C480 222.1 462.1 240 440 240C417.9 240 400 222.1 400 200C400 177.9 417.9 160 440 160z"
+              />
+            </svg>
+            <input id="password" type="password" placeholder="Password" />
+          </div>
+          <button onclick="login()">Sign-in</button>
+          <p id="link"><a href="sign-up.html">Akkauntingiz yo'qmi?</a></p>
+        </div>
+      </div>
+    </div>
+    <script src="/js/sign-in.js"></script>
+  </body>
+</html>

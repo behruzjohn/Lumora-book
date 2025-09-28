@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #191919;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  border-bottom: 2px solid #ffffff1a;
+  padding: 20px;
+  width: 100%;
+  background-color: rgba(98, 96, 96, 0.317);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 111111111111111;
+}
+.header_nav h3 {
+  font-size: 20px;
+  font-family: cursive;
+  color: #ffc786;
+}
+.header_nav {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.header_nav_ul {
+  font-family: var(--secondary-font);
+  display: flex;
+  gap: 50px;
+  font-size: 18px;
+}
+.header_nav_ul li {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.header_nav_ul a {
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+.profile_box_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.containere {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.main {
+  margin-top: 90px;
+  width: 100%;
+  height: 100vh;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.main_nav {
+  padding: 20px;
+}
+.image_div img {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+}
+.search-box {
+  border-radius: 12px;
+  padding: 30px;
+  background-color: #c9ac8c;
+  position: relative;
+  top: -80px;
+  left: 400px;
+  width: 800px;
+  height: 100px;
+  border: 2px solid black;
+  margin-top: 20px;
+  gap: 3px;
+  display: flex;
+  justify-content: center;
+}
+.search-box input {
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  width: 500px;
+}
+.search-box button {
+  border: none;
+  border-radius: 8px;
+  width: 60px;
+  height: 40px;
+}
+.search-box {
+  color: #fff;
+}
+.books_box img {
+  border-radius: 12px;
+  width: 120px;
+  height: 140px;
+}
+.books_box {
+  padding: 10px;
+  border: 1px solid #c9ac8c;
+  flex-wrap: nowrap;
+  display: flex;
+  width: 170px;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.books_nav {
+  display: flex;
+  gap: 10px;
+}
+.books_box h4 {
+  margin-top: 10px;
+}
+.books_nav {
+  width: 100%;
+}
+
+.books_box strong {
+  color: RED;
+}
